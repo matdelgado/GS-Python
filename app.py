@@ -1,8 +1,7 @@
-from doador import *
-from donatario import *
-from alimento import *
-from estoque import *
-from evento import *
+from Doador import *
+from Donatario import *
+from Estoque import *
+from Evento import *
 from AjudaPlantar import *
 import time
 
@@ -50,6 +49,7 @@ if escolha_opcao == 1:
         print("Opção inválida, tente novamente.")
 
     
+
 # elif escolha_opcao == 2:
 #     print("a")
 # else:
